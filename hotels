@@ -1,0 +1,420 @@
+{
+  _id:1,
+  h_name:"The Windflower Resort and spa",
+  price:4680,
+  rating:4.5,
+ loc:"Madikeri,Coorg",
+  contact_details: {
+    phno: "+91 8040842222",
+    email: "reservations@thewindflower.com",
+    website: "www.thewindflower.com",
+    address: "Survey No. 201/P1, Kedakal Village, Suntikoppa Hobli, Somwarpet Taluk, Madikeri, Karnataka 571237"
+    },
+   hotel_details:{ h_id:1,
+    h_details:{
+    facilities : "indoor/outdoor activities, cctv camera, restaurant, parking and transportation, bar,jacuzzi, spa, wifi, laundry, 24 hr power supply ,room service, wheelchair",
+    hotel_type: "resort",
+    img1: "https://media-cdn.tripadvisor.com/media/photo-o/04/1a/24/84/the-windflower-resort.jpg",
+    img2: "https://media-cdn.tripadvisor.com/media/photo-s/0c/4f/3e/4f/rooms-exterior-view.jpg",
+    img3: "https://media-cdn.tripadvisor.com/media/photo-w/06/4f/14/07/the-windflower-resort.jpg"
+  },
+  locations: {
+    loc1:"Omkareshwara Temple - 8km",
+    loc2:"Raja's Seat - 8.7km",
+    loc3: "Chiklihole Reservoir - 7.9km",
+    loc4: "Nagarhole National PRK - 8km"
+  }
+  }
+},
+
+{
+  _id: 2,
+  h_name:"Ama Stays And Trails Rare Earth Estate",
+  price: 5600,
+  rating:4 ,
+  loc:"Madikeri,Coorg",
+  contact_details: {
+    phno: "080-23570761",
+    email : "book@amastaysandtrails.com",
+    website : "www.amastaysandtrails.com",
+    address: "Madikeri, Kaggodlu, Biligeri, Madikeri Taluk, Coorg, Karnataka, India, Karnataka 571201"},
+  hotel_details: {h_id: 2,
+  h_details:{
+    facilities :"indoor/outdoor activities, cctv camera, restaurant, parking and transportation, bar,jacuzzi, spa, wifi, laundry, 24 hr power supply ,room service, wheelchair",
+    hotel_type:"hotel",
+    img1: "https://media-cdn.tripadvisor.com/media/photo-o/1a/06/0d/ed/rare-earth-estate.jpg",
+    img2: "https://media-cdn.tripadvisor.com/media/photo-w/0b/03/af/1e/rare-earth-estate.jpg",
+    img3: "https://media-cdn.tripadvisor.com/media/photo-w/19/c8/bc/6f/rare-earth-estate.jpg"
+  },
+  locations: {
+    loc1:"Omkareshwara Temple - 5.9km",
+    loc2:"Raja's Seat - 5.4km",
+    loc3:"Nagarhole National Park - 7.2km ",
+    loc4:"Mercara Gold Estate - 6.1km "
+  }
+  }
+},
+{
+  _id : 3,
+  h_name:"Paddington Resort and Spa",
+  price: 6532,
+  rating:4.9,
+  loc:"Madikeri,Coorg",
+  contact_details: {
+    phno: "+91 9480410099",
+    email : "reservation@paddingtonresorts.com",
+    website : "www.paddingtonresorts.com",
+    address: "7th Hosakote, Thondoor Village, Suntikoppa Post, Somwarpet, Madikeri, Karnataka 571237"},
+   hotel_details :{h_id: 3,
+   h_details:{
+    facilities :"Campfire area, jacuzzi, swimming pool, indoor games, room service, dry cleaning, wheelchair, lockers, restaurant, cctv, wifi, car rental, valet parking, airport/railway station drop ",
+    hotel_type:"resort",
+    img1: "https://media-cdn.tripadvisor.com/media/photo-w/0a/a5/9b/da/euphoria-bed-room.jpg",
+    img2: "https://media-cdn.tripadvisor.com/media/photo-o/16/1d/a8/39/calista-private-pool.jpg",
+    img3: "https://media-cdn.tripadvisor.com/media/photo-o/15/90/72/8d/paddington-resort-spa.jpg"
+  },
+  locations: {
+    loc1:"Chiklihole Reservoir - 2.3km",
+    loc2:"Dubare Elephant Camp - 6.1km",
+    loc3:"Golden Temple - 9.9km"
+  }
+  } 
+},
+{
+  _id : 4,
+  h_name:"Heritage Resort Coorg",
+  price:5439,
+  rating:4.5 ,
+  loc:"Madikeri,Coorg",
+ 
+  contact_details: {
+    phno:"080 2523 2329",
+    email : "reservations@indoasia-hotels.com",
+    website : "www.indoasia-hotels.com",
+    address: "50/3, 1st Monnangeri Village, Taluk, Galibeedu, Karnataka 571201"},
+   hotel_details: {h_id: 4,
+   h_details:{
+    facilities :"cctv cameras, spa, swimming pool, parking, room service, dry cleaning/laundry, wheelchair, indoor activities, pickup services",
+    hotel_type:"resort",
+    img1: "https://media-cdn.tripadvisor.com/media/photo-w/18/0f/d8/12/heritage-resort-coorg.jpg",
+    img2: "https://media-cdn.tripadvisor.com/media/photo-w/17/49/37/b6/heritage-resort-coorg.jpg",
+    img3: "https://media-cdn.tripadvisor.com/media/photo-o/17/22/67/1d/suite-with-garden.jpg"
+  },
+  locations: {
+    loc1:"Nagarhole National Park - 5.8km",
+    loc2:"Omkareshwara Temple - 6.7km",
+    loc3:"Raja's Seat - 6.9km",
+    loc4:"Mercara Gold Estate - 6.7km"
+  }
+  }
+},
+{
+  _id : 5,
+  h_name:"Coorg Cliffs Resorts",
+  price:7200,
+  rating:4.5 ,
+  loc:"Pollibetta,Coorg",
+ 
+  contact_details: {
+    phno:"85490 53185",
+    email : "reservations@coorgcliffsresort.com",
+    website : "www.coorgcliffsresort.com",
+    address: "Hanchikad Estate, Pollibetta, Karnataka 571215"
+    },
+    hotel_details:{ 
+    h_id: 5,
+    h_details:{
+    facilities :"laundry/dry cleaning services, room service, gym, pool, outdoor parking, valet parking,doctor on call, conference room",
+    hotel_type:"resort",
+    img1: "https://media-cdn.tripadvisor.com/media/photo-m/1280/18/30/79/1d/coorg-cliffs-resorts.jpg",
+    img2: "https://media-cdn.tripadvisor.com/media/photo-w/17/15/14/94/coorg-cliffs-resorts.jpg",
+    img3: "https://media-cdn.tripadvisor.com/media/photo-o/17/43/f7/df/img-20190419-171115-largejpg.jpg"
+  },
+  locations: {
+    loc1:"The Giving Tree at Kasthuri Estate - 3.1km",
+    loc2:"Dubare Elephant camp - 14.2km",
+    loc3:"Coorg Golf Links - 10.1km"
+  }
+  }
+},
+{
+  _id : 6,
+  h_name:"Brook Stone Villas",
+  price:6499,
+  rating:4 ,
+  loc:"Madikeri,Coorg",
+  
+  contact_details: {
+    phno:" 090080 30812",
+    email: "crs@raihospitalities.com",
+    website: "www.raihospitalities.com",
+    address: "Thalatmane Village, Madikeri, Karnataka 571201"
+    },
+    hotel_details:{h_id:6,
+  h_details:{
+    facilities :"room service, laundry, cctv camera, wheelchair, pickup services, parking, badminton/table tennis court, ironing service, doctor on call ",
+    hotel_type:"villa",
+    img1: "https://media-cdn.tripadvisor.com/media/photo-w/0a/07/90/3d/resort-overview.jpg",
+    img2: "https://media-cdn.tripadvisor.com/media/photo-w/0a/07/8f/a2/rooms.jpg",
+    img3:"https://media-cdn.tripadvisor.com/media/photo-w/15/2b/10/b9/leisure-vacations-brook.jpg"
+  },
+  locations: {
+    loc1:"Omkareshwara Temple - 1.9km ",
+    loc2:"Nagarhole National Park - 2.6km",
+    loc3:"Mercara Gold Estate - 2.7km",
+    loc4:"Abbey Falls"
+  }
+  }
+},
+{
+  _id : 7,
+  h_name:"The Tamara Coorg",
+  price:12926,
+  rating:5 ,
+  loc:"Madikeri,Coorg",
+  contact_details: {
+    phno:"+91 8071077700",
+    email : "coorg@thetamara.com",
+    website : "www.thetamara.com",
+    address: "The Tamara Coorg, Kabbinakad Estate, Yevakapadi, Napoklu Nad Madikeri, Karnataka 571212"
+    },
+    hotel_details:{h_id:7,
+    h_details:{
+    facilities :"Breakfast, parking, Game room, Sauna, CCTV, wifi, pool with view, room service, dining",
+    hotel_type : "resort",
+    img1:"https://media-cdn.tripadvisor.com/media/photo-o/0b/b7/d5/c7/cottage-exterior-view.jpg",
+    img2:"https://media-cdn.tripadvisor.com/media/photo-w/0d/8f/c3/76/the-tamara-coorg.jpg",
+    img3:"https://media-cdn.tripadvisor.com/media/photo-o/0b/b7/d5/cb/eden-lotus-balcony-view.jpg"
+  },
+  locations: {
+    loc1:"Chelavara Falls - 3.3km",
+    loc2:"Igguthappa Temple - 5.7km",
+    loc3:"Tadiandamol Peak - 9.4km"
+  }
+  }
+},
+{
+  _id :8,
+  h_name:"Purple Palms Resort and Spa",
+  price:6080,
+  rating:4.6,
+  loc:"Kushalnagar,Coorg",
+  contact_details: {
+    phno: "09663698004",
+    email : " reservation@purplepalmsresort.com",
+    website: " www.purplepalmsresort.com",
+    address: "Bolluru Village, Guddehosur, BM Rd, near Kaveri Nisargadhama, Kushalnagar, Karnataka 571234"
+    },
+    hotel_details:{h_id: 8,
+  h_details:{
+    facilities :"swimming pool, gym, spa, room service, wheelachair, dry cleaning, car rental, parking, cctv, luggage storage, business centre, ayurveda clinic",
+    hotel_type:"resort",
+    img1:"https://media-cdn.tripadvisor.com/media/photo-w/0d/6c/e8/2c/courtyard-view.jpg",
+    img2:"https://media-cdn.tripadvisor.com/media/photo-w/0d/6c/e9/46/peaberry-suite.jpg",
+    img3:"https://media-cdn.tripadvisor.com/media/photo-w/0c/9b/87/cd/earth-glo-spa.jpg"
+  },
+  locations: {
+    loc1:"Golden Temple - 4.2km",
+    loc2:"Dubare Elephant Camp - 9km",
+    loc3:"Chiklihole Reservoir - 8.1km"
+  }
+  }
+},
+{
+  _id :9,
+  h_name:"Whispering Woods",
+  price:4990,
+  rating:3.8,
+  loc:"Madikeri,Coorg",
+ 
+  contact_details: {
+    phno:"082722 98356",
+    email: "crs@raihospitalities.com",
+    website: "raihospitalities.com",
+    address: "571201, Madikeri - Virajpet Rd, Mekeri, Karnataka 571201"
+    },
+     hotel_details:{h_id:9,
+  h_details:{
+    facilities :"room service, wifi, express check in-check out, restaurant, breakfast services, trekkin/hiking, bonfire, barbeque grills, 24 hr car rental, parking, outdoor games, multilingual staff, cctv ",
+    hotel_type: "hotel",
+    img1:"https://media-cdn.tripadvisor.com/media/photo-w/10/1c/44/e9/leisure-vacations-whispering.jpg",
+    img2:"https://media-cdn.tripadvisor.com/media/photo-p/12/59/60/cb/img-20180316-204524-569.jpg",
+    img3:"https://media-cdn.tripadvisor.com/media/photo-w/10/1c/45/31/leisure-vacations-whispering.jpg"
+  },
+  locations:{
+    loc1:"Raja's Seat - 1.6km",
+    loc2:"Omkareshwara Temple - 2.3km",
+    loc3:"Mercara Gold Estate - 3.4km",
+    loc4:"Nagarhole National Park - 3.6km"
+  }
+  }
+},
+{
+  _id :10,
+  h_name:"Hotel Nature's Cradle",
+  price:2800,
+  rating:3.2,
+  loc:"Thalathmane,Coorg",
+  contact_details: {
+    phno:"855-516-1090",
+    email:"NULL",
+    website:"NULL",
+    address:"Mangalore Highway, Thalathmane., Coorg , 571201"
+    },
+    hotel_details:{h_id:10,
+  h_details:{
+    facilities :"room service, pets allowed, dry cleaning, parking, restaurant, wheelchair, cctv, indoor games, breakfast services ",
+    hotel_type:"hotel",
+    img1:"https://media-cdn.tripadvisor.com/media/photo-w/11/49/83/36/leisure-vacations-nature.jpg",
+    img2:"https://media-cdn.tripadvisor.com/media/photo-w/11/49/81/e9/leisure-vacations-nature.jpg",
+    img3:"https://media-cdn.tripadvisor.com/media/photo-w/11/49/82/2d/leisure-vacations-nature.jpg"
+  },
+  locations: {
+    loc1:"Mercara Gold Estate - 1.8km",
+    loc2:"Omkareshwara Temple - 2.2km",
+    loc3:"Abbey Falls - 5.1km ",
+    loc4:"Nagarhole National Park - 2.9km "
+  }
+  }
+},
+{
+  _id :11,
+  h_name:"Castle Continental Premium Hotel",
+  price:1200,
+  rating: 3.5,
+  loc:"Kushalnagar,Coorg",
+  contact_details: {
+    phno:"082762 98298",
+    email: "NULL",
+    website: "www.castlecontinental.in",
+    address: " OPP Govt Polytechnic,B.M Road, Madapatna Rd, Kushalnagar, Karnataka 571234"
+    },
+    hotel_details:{h_id :11,
+  h_details:{
+    facilities :"parking, 24 hr security, laundry facilities, family rooms, internet access, lift, business centre",
+    hotel_type:"guest house",
+    img1:"https://media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/1c/09/9b/6e/facadeentrance.jpg",
+    img2:"https://media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/1b/d4/ff/f2/4886766.jpg"
+  },
+  locations: {
+    loc1:"Nisargadhama Exotic Bird Park - 2.7km",
+    loc2:"Golden Temple - 3km",
+    loc3:"Nisargadhama Forest - 3.1km"
+  }
+  }
+},
+{
+  _id :12,
+  h_name:"Prashanti Resort",
+  price:1499,
+  rating:3.5,
+  loc:"Madikeri,Coorg",
+  contact_details: {
+    phno:" 094818 83004",
+    email: "NULL",
+    website: "NULL",
+    address: "Mangalore Road, Katakeri, Village, Thalathamane Post, Madikeri, Karnataka 571201"
+    },
+     hotel_details: {
+  h_id:12,
+  h_details:{
+    facilities :"cctv installed, transportation services, valet parking, vending machine, breakfast services, restaurant, steam room, multilingual staff, internet access, luggage storage, laundry services ",
+    hotel_type:"cottage",
+    img1: "https://media-cdn.tripadvisor.com/media/photo-w/0e/b6/ad/db/prashanti-resort.jpg",
+    img2:"https://media-cdn.tripadvisor.com/media/photo-p/0d/27/b8/f2/prashanti-resort.jpg",
+    img3:"https://media-cdn.tripadvisor.com/media/photo-o/03/64/67/81/prashanti-resort.jpg"
+  },
+  locations: {
+    loc1:"Raja's Seat - 2.5km",
+    loc2:"Omkareshwara Temple - 3km",
+    loc3:"Nagarhole National Park - 3.4km"
+  }
+  }
+},
+{
+  _id :13,
+  h_name:"Old Kent Estate",
+  price:11000,
+  rating:4.3,
+  loc:"Suntikoppa,Coorg",
+  contact_details: {
+    phno:"097898 96454",
+    email: "reservations@oldkentestates.com",
+    website: "www.oldkentestate.com",
+    address: "Thaikappa Estate Horoor Post and Village, Suntikoppa 571237 India"
+    },
+    hotel_details:{ h_id:13,
+  h_details:{
+    facilities :"breakfast, parking,wifi, game room, outdoor activities, pickup/drop",
+    hotel_type:"estate",
+    img1:"https://media-cdn.tripadvisor.com/media/photo-o/03/22/97/3a/getlstd-property-photo.jpg",
+    img2:"https://media-cdn.tripadvisor.com/media/photo-w/08/89/00/68/old-kent-estates.jpg",
+    img3:"https://media-cdn.tripadvisor.com/media/photo-s/03/2a/5a/5e/old-kent-estates.jpg"
+  },
+  locations: {
+    loc1:"Chiklihole Reservoir - 7.7km",
+    loc2:"Omkareshwara Temple - 7.8km",
+    loc3:"Nagarhole National Park - 7.9km",
+    loc4:"Raja's Seat - 8.4km"
+  }
+  }
+},
+{
+  _id :14,
+  h_name:"Woodstock Resort",
+  price:2800,
+  rating:4.5,
+  loc:"Madikeri,Coorg",
+  contact_details: {
+    phno:"082722 98100",
+    email: " info@woodstockvillas.com",
+    website: "www.woodstockresorts.in",
+    address: "Madikeri - Mysore Highway, near Sampigekatte Junction, Madikeri, Karnataka 571201"
+    },
+     hotel_details:  {h_id:14,
+  h_details:{
+    facilities :"multicuisine restaurant, swimming pool, spa, wifi, car parking, bonfire arrangement, complimentary breakfast, tours and travel desk ",
+    hotel_type:"home stay",
+   img1:"https://media-cdn.tripadvisor.com/media/photo-o/11/75/e3/e0/pathway.jpg",
+    img2:"https://media-cdn.tripadvisor.com/media/photo-o/12/3f/34/60/swimming-pool.jpg",
+    img3:"https://media-cdn.tripadvisor.com/media/photo-w/12/3f/36/7b/seesham-restaurant.jpg"
+  },
+  locations: {
+    loc1:"Abbey Falls - 5km",
+    loc2:"Omkareshwara Temple - 1.7km",
+    loc3:"Mercara Gold Estate - 5.6km",
+    loc4:"Raja's Seat - 2.5km"
+  }}
+},
+{
+  _id :15,
+  h_name:"Club Mahindra, Coorg",
+  price: 8300,
+  rating:4.5,
+  loc:"Virajpet,Coorg",
+  contact_details: {
+    phno:"082742 60700",
+    email: "NULL",
+    website: "www.clubmahindra.com",
+    address: "Village Karada Post, Club Mahindra Virajpet Rd, Palangala, Karnataka 571218"
+    },
+    hotel_details:{h_id:15,
+  h_details:{
+    facilities :"free parking, pool, bar, game room, spa, breakfast buffet, outdoor pool, bicycle rental",
+    hotel_type:"Resort",
+   img1:"https://media-cdn.tripadvisor.com/media/photo-m/1280/15/b3/26/71/club-mahindra-virajpet.jpg",
+   img2:"https://media-cdn.tripadvisor.com/media/photo-m/1280/15/b8/cb/c4/club-mahindra-virajpet.jpg",
+   img3:"https://media-cdn.tripadvisor.com/media/photo-m/1280/15/b8/cc/2b/club-mahindra-virajpet.jpg"
+  },
+  locations: {
+    loc1:"Tadiandamol Peak - 1.7km",
+    loc2:"Karada - 1.7km",
+    loc3:"Kabbe Hills - 1.7km",
+    loc4:"Chelavara - 6.7KM "
+  }
+   }
+}
+
+
+
+
