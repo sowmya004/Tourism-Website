@@ -1,0 +1,92 @@
+<%- include("partials/header") -%>
+
+<div class= "container">
+ <h2 name = "hname"><%=hname%></h2>
+ <br>
+<h4><i>Reserve this hotel</i></h4>
+<br>
+     <form class="" action="/reservation/<%=hname%>" method="post">
+      <!-- <div class="form-group col-auto"> -->
+        <div class="form-group row">
+        <br>
+        <div class="col-xs-3">
+        <label>First Name</label>
+        <textarea class="form-control" type="text" name="firstname" rows="1" required></textarea>
+        </div>
+        <div class="col-xs-3">
+        <label>Last Name</label>
+        <textarea class="form-control" name="lastname" rows="1" required ></textarea>
+      </div>
+    </div>
+      <br>
+      <div class="form-group row">
+      <div class="col-xs-2">
+        <label>Phone number</label>
+        <textarea class="form-control" type="text" name="phone" rows="1" required></textarea>
+        </div>
+        <div class="col-xs-3">
+          <label>Email Id</label>
+          <textarea class="form-control" type="text" name="email" rows="1" required></textarea>
+          </div>
+      </div>
+        <br>
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>jQuery UI Datepicker - Default functionality</title>
+          <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+          <link rel="stylesheet" href="/resources/demos/style.css">
+          <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+          <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+          <script>
+          $( function() {
+            $( "#datepicker" ).datepicker();
+          } );
+          </script>
+        </head>
+        <body>
+        <p>Check-in Date: <input type="text" name="date" id="datepicker" required></p>
+        </body>
+        <br>
+        <div class="form-group row">
+          <div class="col-xs-2">
+        <label>No.Of Nights</label>
+        <textarea class="form-control" type="number" name="nights" rows="1" required></textarea></div>
+        <div class="col-xs-2">
+        <label>NO. of Rooms</label>
+        <textarea class="form-control" type="number" name="rooms" rows="1" required></textarea></div>
+        <div class="col-xs-2">
+        <label>No.of Adults</label>
+        <textarea class="form-control" type="number" name="adults" rows="1" required></textarea></div>
+        <div class="col-xs-2">
+        <label>No.of Children</label>
+        <textarea class="form-control" type="number" name="children" rows="1" required></textarea></div>
+      </div>
+      <br>
+  
+      <button class="btn btn-success" type="submit" name="button">Reserve</button>
+    </form>  
+</div>
+    <!-- <div class="container">
+      <h2></h2>
+      <p>The form below shows input elements with different widths using different .col-xs-* classes:</p>
+      <form>
+        <div class="form-group row">
+          <div class="col-xs-2">
+            <label for="ex1">col-xs-2</label>
+            <input class="form-control" id="ex1" type="text">
+          </div>
+          <div class="col-xs-3">
+            <label for="ex2">col-xs-3</label>
+            <input class="form-control" id="ex2" type="text">
+          </div>
+          <div class="col-xs-4">
+            <label for="ex3">col-xs-4</label>
+            <input class="form-control" id="ex3" type="text">
+          </div>
+        </div>
+      </form>
+    </div> -->
+
+
+<%- include("partials/footer") -%>

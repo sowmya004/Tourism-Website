@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+    <h1>Add a Tourist Spot</h1>
+    <form class="" action="/create" method="post">
+      <div class="form-group col-auto">
+        <br>
+        <label>Spot Name</label>
+        <textarea class="form-control" type="text" name="spotName" rows="2" required></textarea>
+        <br>
+        <label>Spot Description</label>
+        <textarea class="form-control" name="spotDesc" rows="5" required ></textarea>
+        <br>
+        <label>Image URL</label>
+        <textarea class="form-control" type="text" name="spotImg" rows="2" required></textarea>
+      </div>
+      <button class="btn btn-success" type="submit" name="button">Publish</button>
+    </form>
+   
+
+<%- include("partials/footer"); -%>

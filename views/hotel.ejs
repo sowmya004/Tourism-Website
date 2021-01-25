@@ -1,0 +1,24 @@
+<%- include("partials/header"); -%>
+ 
+
+    
+     <h1 class="headings"> HOTELS IN COORG </h1> 
+    <br>
+     <% newitems.forEach(function(item) { %> 
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img src="<%=item.hotel_details.h_details.img1%>" alt="" style="width:100%">
+      </div> 
+        <div class="col-md-7 hotels">
+            <h2 class="featurette-heading"><%=item._id%>. <a href="/details/<%= item._id%>"><%=item.h_name%></a></h2>
+           <p>Price: ₹<%= item.price %></p>
+            <p>Rating: <%= item.rating %></p>
+           <p> Location: <%= item.loc %></p>
+           </div>
+      </div>
+    <hr class="featurette-divider">
+    <% }) %>
+
+<%- include("partials/footer"); -%>
+
+

@@ -1,0 +1,37 @@
+<%- include("partials/header") -%>
+
+    <div class="blog"><!-- style="background-color: #f6f7d4;"ffffdd -->
+       
+       <h1 class="headings"> MUST VISIT PLACES IN COORG </h1>
+        <br>
+        <%  spots.forEach(function(spot){ %>
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading blog_heading"><b><%=spot.name%></b></h2>
+                <p class="lead"> <%=spot.desc%> </p>
+            </div>
+            <div class="col-md-5">
+                <img src="<%=spot.img_url%>" alt="" style="width:100%">
+            </div>
+        </div>
+        <form class=" " action="/delete" method="post">
+            <div class="Button">
+        <button onclick="success()" class="btn btn-success" type="submit" name="submit" value="<%=spot._id %>">Delete</button>
+        </div>
+    </form>
+    <hr class="featurette-divider">
+
+        <% }) %>
+
+        <p>Click here to add more tourist attractions</p>
+        <a href="/create">Add</a>
+    </div>
+    <script>
+        function success()
+        {
+          swal("Wohoo!", "Successfully deleted!", "success");
+        }
+      </script>
+
+<%- include("partials/footer") -%>
