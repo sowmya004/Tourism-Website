@@ -4,13 +4,18 @@ This repository contains the codebase for a comprehensive tourism website that e
 
 ### Features
 Admin-Generated Content: Admins can contribute by adding new places to visit and hotels in the area. Each place and hotel entry can be edited or deleted. All functions such as creating, updating and deleting can be peformed by admin using the web application.
+
 Place Details: Each place entry includes information about the location, description and images.
+
 Hotel Listings: The website showcases a curated list of hotels with details such as prices, amenities, hotel rating and nearby toursit attractions.
+
 Reservation System: Users can select their desired dates and hotel rooms, and then proceed to make reservations.
 
 ### Technologies Used
 Frontend: HTML, CSS, JavaScript
+
 Backend: Node.js, Express.js
+
 Database: MongoDB
 
 ### Project Demo - 
